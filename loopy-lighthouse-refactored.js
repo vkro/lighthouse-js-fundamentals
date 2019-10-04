@@ -20,9 +20,9 @@ call with 3 parameters.
 function loopyLighthouse(range, multiples, words) {
   for (let repeat = range[0]; repeat <= range[1]; repeat++) {
     if (repeat % multiples[0] === 0 && repeat % multiples[1] === 0) {
-     console.log(words[0] + words[1]);
+      console.log(words[0] + words[1]);
     } else if (repeat % multiples[0] === 0) {
-     console.log(words[0]);
+      console.log(words[0]);
     } else if (repeat % multiples[1] === 0) {
       console.log(words[1]);
     } else console.log(repeat);
